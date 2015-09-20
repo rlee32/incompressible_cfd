@@ -1,0 +1,7 @@
+Gmsh Drawing:
+The bottom line of each block should be drawn first in the correct direction.
+Line loops should be made ccw as follows: bottom,left,top,right (jmin,imax,jmax,imin)
+
+Outputs:
+p3d: Data in plot3d input grid should be grouped in constant-xi lines.
+sefs: Output coordinates are row-major ordered.
